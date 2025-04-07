@@ -1,0 +1,23 @@
+
+.AA-member-img{
+    position: relative;
+}
+.AA-member-card-info
+{
+    position: absolute;
+    clip-path: polygon(0 24%, 100% 0, 100% 100%, 0% 100%);
+    width: 100%;
+    right: 0px;
+    bottom: 25px;
+}
+
+.AA-member-card-share{
+    font-size: 30px;
+    background-color: var(--blue);
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    border-radius: 50%;
+    padding: 0px 5px;
+    z-index: 5;
+}

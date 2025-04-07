@@ -1,0 +1,20 @@
+.AA-sec-pricing-plan{
+    padding: 80px 0;
+}
+
+.AA-tab-pricing{
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #D4DCFF;
+    border-radius: 25px;
+}
+.AA-tab-pricing .AA-active{
+    background-color: var(--blue);
+    padding: 5px;
+    border: 1px solid #D4DCFF;
+    border-radius: 25px;
+    margin-left: 2px;
+    margin-right: 10px;
+    color: white
+    ;
+}

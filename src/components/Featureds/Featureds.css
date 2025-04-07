@@ -1,0 +1,33 @@
+.AA-sec-featured{
+    padding: 100px 0 300px 0;
+}
+
+.AA-title-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+
+.AA-sub-title{
+    width: 450px;
+}
+.AA-actions-featured{
+    display: flex;
+    justify-content: center;
+}
+
+.AA-actions-featured div{
+    padding: 15px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 2px #D4DCFF;
+}
+
+.AA-actions-featured .active{
+    background-color: var(--blue);
+    color: white;
+    box-shadow: none;
+}

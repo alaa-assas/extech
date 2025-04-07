@@ -1,0 +1,10 @@
+.AA-img-cta-shape{
+    position: absolute;
+    right: 100px;
+    bottom: 0px;
+    z-index: 2;
+}
+
+.AA-sec-position-contact{
+    top: 150px;
+}

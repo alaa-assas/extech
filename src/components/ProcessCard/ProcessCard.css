@@ -1,0 +1,18 @@
+.AA-process-card .step{
+    font-size: 50px;
+    -webkit-text-fill-color: var(--blue-dark);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.AA-process-card .title{
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.AA-process-card .body{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}

@@ -1,0 +1,34 @@
+.AA-grey-img{
+    filter: grayscale(100%);
+}
+
+
+  
+  .AA-container-scroller {
+    overflow-x: hidden;
+  }
+
+  .horizontal-scrolling-items {
+    display: flex;
+    width: 3600px;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+    justify-content: start;
+    animation-name: infiniteScroll;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  .horizontal-scrolling-items img{
+    height: 50px;
+  }
+
+  .horizontal-scrolling-items .AA-fields-row{
+    font-size: 50px;
+  }
+  @keyframes infiniteScroll {
+    from {transform: translateX(0) }
+    to {transform: translateX(calc(0px - 50% - 25px));}
+  }

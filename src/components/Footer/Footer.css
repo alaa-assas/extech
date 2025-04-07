@@ -1,0 +1,67 @@
+.padding-extra{
+    padding-top: 200px !important;
+}
+
+.custom-input{
+    background-color: transparent;
+    border: none;
+    max-width: fit-content;
+    position: relative;
+}
+
+.AA-sec-contact-email{
+    max-width: fit-content;
+}
+
+.AA-desc-footer{
+    max-width: 90%;
+}
+
+.AA-button-footer{
+    position: absolute;
+    right: 0;
+    padding: 10px 10px;
+    background-color: var(--blue);
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+
+.input-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.input-wrapper input {
+    padding: 10px;
+    padding-right: 40px;
+}
+
+.input-wrapper button {
+    position: absolute;
+    top: 2.5px;
+    right: 3px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    padding: 10px 10px;
+    background-color: var(--blue);
+    border-radius: 10px;
+    color: white;
+    border: none;
+}
+
+footer h5{
+    position: relative;
+}
+
+footer h5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 61px;
+    height: 2px;
+    background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, #FFF 100%);
+}

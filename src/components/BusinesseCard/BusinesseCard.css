@@ -1,0 +1,30 @@
+.AA-busines-card{
+    background-color: #F3F7FB;
+    padding: 25px 15px;
+    border-radius: 10px;
+    border: 2px solid #D4DCFF;
+
+}
+
+.AA-busines-card h3{
+    font-family: var(--font-title-card);
+    font-weight: 700;
+}
+
+.AA-busines-card p{
+    color: #445375;
+}
+
+.AA-busines-card img{
+    padding: 10px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    border: 2px solid #D4DCFF;
+}
+
+.AA-busines-card button{
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: 2px solid #D4DCFF;
+    color: #445375;
+}

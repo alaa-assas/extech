@@ -1,0 +1,112 @@
+.AA-navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 125px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.AA-navbar-rounded{
+    width: 80% !important;
+    margin: 0 10%;
+    border-radius: 50px;
+    padding: 15px 30px;
+    box-shadow: 2px 2px 2px 0px #384bff4d;
+    border: 8px solid #384bff4d;
+    border-top: 0 ;
+}
+.logo-navbar{
+    width: 120px;
+}
+.AA-navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+.AA-navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+.AA-icon {
+    display: none;
+}
+.AA-navbar.Scrol {
+    background-color: black;
+}
+.AA-navbar.Scrol ul li a {
+    color: white;
+}
+.AA-navbar.Scrol .AA-icon {
+    color: white;
+}
+.AA-navbar.Scrol .AA-icons-nav svg{
+    color: white;
+}
+.AA-icons-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.AA-image-nav-pos{
+    height: 50px;
+    position: fixed;
+    left:0;
+    top: 10px;
+    z-index: 101;
+}
+
+@media (max-width:992px) {
+    .AA-navbar ul {
+        display: none;
+    }
+    .AA-icon {
+        display: block;
+    }
+
+    .AA-navbar {
+        padding: 23px 40px;
+    }
+    .AA-nav-Links.open {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        width: 100%;
+        height: 100%;
+        background-color: white;
+    }
+    .AA-navbar.Scrol ul li a {
+        color: black;
+    }
+    .AA-image-nav-pos{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 571px) {
+    .AA-navbar {
+        padding: 23px 20px;
+    }
+    .logo-nav{
+        width: 100px;
+    }
+    .AA-navbar-rounded {
+        width: 90% !important;
+        margin: 0 5%;
+    }
+}

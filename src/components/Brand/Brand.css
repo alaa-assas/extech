@@ -1,0 +1,13 @@
+.horizontal-scrolling-brand {
+    display: flex;
+    width: 2600px;
+
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+    justify-content: start;
+    animation-name: infiniteScroll;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
