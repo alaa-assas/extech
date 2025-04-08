@@ -10,10 +10,10 @@ export default function ContactSec2() {
             <div className="row gy-5">
                <div className="col-xl-4 d-none d-lg-block position-relative">
                   <div className="AA-custom-img-pos-back position-absolute">
-                     <img src="/assets/images/ctaShape2_1.webp" alt="" />
+                     <img src="/extech/assets/images/ctaShape2_1.webp" alt="" />
                   </div>
                   <div className="AA-custom-img-pos position-absolute">
-                     <img src="/assets/images/ctaThumb.webp" alt="thumb" />
+                     <img src="/extech/assets/images/ctaThumb.webp" alt="thumb" />
                   </div>
                </div>
                <div className="col-xl-4 d-flex align-items-center">

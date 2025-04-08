@@ -1,21 +1,21 @@
 export const MemberData = [
     {
-        img: "/assets/images/04.webp",
+        img: "/extech/assets/images/memb1.webp",
         name: "Alaa Alassas",
         position: "Software Engineer"
     },
     {
-        img: "/assets/images/04.webp",
+        img: "/extech/assets/images/memb2.webp",
         name: "Alaa Alassas",
         position: "Software Engineer"
     },
     {
-        img: "/assets/images/06.webp",
+        img: "/extech/assets/images/memb3.webp",
         name: "Alaa Alassas",
         position: "Software Engineer"
     },
     {
-        img: "/assets/images/07.webp",
+        img: "/extech/assets/images/memb4.webp",
         name: "Alaa Alassas",
         position: "Software Engineer"
     }

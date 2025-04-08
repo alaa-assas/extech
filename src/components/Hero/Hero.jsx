@@ -13,7 +13,7 @@ export default function Hero() {
         <Container className="h-100 pt-5">
           <Row className='d-flex flex-wrap justify-content-end align-items-end flex-md-row-reverse flex-sm-row flex-lg-row-reverse h-100'>
             <Col lg={6} md={12} sm={12} className='first-column text-center h-100'>
-              <img className="img-fluid h-100" src="/assets/images/heroThumb1_1.webp" alt="" />
+              <img className="img-fluid h-100" src="/extech/assets/images/heroThumb1_1.webp" alt="" />
             </Col>
             <Col lg={6} md={12} sm={12}>
               <div className='AA-secound-col'>

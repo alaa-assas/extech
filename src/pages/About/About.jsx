@@ -22,7 +22,7 @@ export default function About() {
             AboutFieldData.map((e,i) => {
               return(
                 <>
-                  <li><img src="/assets/images/asterisk.svg" alt="img" /></li>
+                  <li><img src="/extech/assets/images/asterisk.svg" alt="img" /></li>
                   <li class="AA-fields-row">{e.title}</li>
                 </>
               )
@@ -54,19 +54,19 @@ export default function About() {
           <p className='text-center'>1k + Brands Trust Us</p>
           <Row className=''>
             <Col className='d-none d-lg-block text-center AA-grey-img'>
-              <img src="/assets/images/envato.png" alt="" className='img-fluid'/>
+              <img src="/extech/assets/images/envato.png" alt="" className='img-fluid'/>
             </Col>
             <Col className='d-none d-md-block text-center AA-grey-img'>
-              <img src="/assets/images/envato.png" alt="" className='img-fluid'/>
+              <img src="/extech/assets/images/envato.png" alt="" className='img-fluid'/>
             </Col>
             <Col className='text-center'>
-              <img src="/assets/images/envato.png" alt="" className='img-fluid'/>
+              <img src="/extech/assets/images/envato.png" alt="" className='img-fluid'/>
             </Col>
             <Col className='d-none d-md-block text-center AA-grey-img'>
-              <img src="/assets/images/envato.png" alt="" className='img-fluid'/>
+              <img src="/extech/assets/images/envato.png" alt="" className='img-fluid'/>
             </Col>
             <Col className='d-none d-lg-block text-center AA-grey-img'>
-              <img src="/assets/images/envato.png" alt="" className='img-fluid'/>
+              <img src="/extech/assets/images/envato.png" alt="" className='img-fluid'/>
             </Col>
           </Row>
         </div>

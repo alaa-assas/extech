@@ -44,7 +44,7 @@ export default function Contact() {
           </div>
           
           <div className='position-relative'>
-            <img src="/assets/images/video.webp" className="rounded-bottom w-100" alt=""/>
+            <img src="/extech/assets/images/video.webp" className="rounded-bottom w-100" alt=""/>
             <div className="AA-video-link">
                 <a href="#" className='rounded-circle p-4 bg-white'>               
                     <IoPlayOutline />

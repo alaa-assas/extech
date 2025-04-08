@@ -17,7 +17,7 @@ export default function PricingPlan({isactive,title,price,data,delay}) {
                     ${price}/ Month
                 </p>
             </div>
-            <img src='/assets/images/pricingIcon1_1.svg' alt="" className='h-25'/>
+            <img src='/extech/assets/images/pricingIcon1_1.svg' alt="" className='h-25'/>
         </div>
         <ul className="list-unstyled w-100">
         { data.map((e, index) => {

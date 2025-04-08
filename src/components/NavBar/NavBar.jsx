@@ -25,13 +25,13 @@ export default function NavBar({ishome}) {
     <nav className='position-relative'>
         {
             !ishome && (
-              <img src="/assets/images/plane.webp" className='AA-image-nav-pos' alt=""/>
+              <img src="/extech/assets/images/plane.webp" className='AA-image-nav-pos' alt=""/>
             )
           }
       <Container>
     <div className={`AA-navbar ${isSecrol ? "Scrol" :""} ${ishome? "AA-navbar-rounded" : ""}`}>
         <div>
-          <img src={`${!isSecrol ? '/assets/images/logo.svg' :'/assets/images/logo-white.svg'}`} alt="" className='logo-nav'/>
+          <img src={`${!isSecrol ? '/extech/assets/images/logo.svg' :'/extech/assets/images/logo-white.svg'}`} alt="" className='logo-nav'/>
         </div>
         <ul className={`AA-nav-Links ${isOpen ? "open" : ""}`}>
           <li>

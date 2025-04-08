@@ -9,11 +9,11 @@ export default function ContactSec() {
     <section className="AA-Contact-sec pb-0 position-relative">
       <div className="container">
          <div className="AA-sec-position-contact p-5 bg-blue-color position-relative rounded">
-            <div className="AA-img-cta-shape"><img src="/assets/images/ctaShape1_1.webp" alt="shape" /></div>
+            <div className="AA-img-cta-shape"><img src="/extech/assets/images/ctaShape1_1.webp" alt="shape" /></div>
             <div className="row gy-5">
                <div className="col-xl-3">
                   <div className="">
-                     <img src="/assets/images/ctaThumb1_1.webp" alt="thumb" />
+                     <img src="/extech/assets/images/ctaThumb1_1.webp" alt="thumb" />
                   </div>
                </div>
                <div className="col-xl-6 d-flex align-items-center">

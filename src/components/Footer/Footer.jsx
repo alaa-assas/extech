@@ -42,7 +42,7 @@ export default function Footer({ishome}) {
             )}
             <Row className='gy-5'>
                 <Col xs={12} md={6} lg={3} className='ms-0'>
-                    <img src='/assets/images/logo-white.svg' alt="" className='pb-4'/>
+                    <img src='/extech/assets/images/logo-white.svg' alt="" className='pb-4'/>
                     <p class="AA-desc-footer text-white pb-3">
                          Extexh IT is a Phasellus ultricies aliquam volutpat ullamcorper
                          laoreet neque, a lacinia curabitur lacinia mollis

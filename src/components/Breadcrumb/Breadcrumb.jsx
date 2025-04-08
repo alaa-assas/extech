@@ -25,10 +25,10 @@ export default function Breadcrumb({title}) {
             </div>
         </div>
         <div className='AA-first-img position-absolute h-100'>
-            <img src='/assets/images/element.webp' className="h-100 img-fluid" alt="" />
+            <img src='/extech/assets/images/element.webp' className="h-100 img-fluid" alt="" />
         </div>
         <div className='AA-secound-img position-absolute h-100'>
-        <img src='/assets/images/line-element.webp' className='h-100 img-fluid' alt="" />
+        <img src='/extech/assets/images/line-element.webp' className='h-100 img-fluid' alt="" />
         </div>
     </>
   )

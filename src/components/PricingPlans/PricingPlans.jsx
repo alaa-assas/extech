@@ -16,7 +16,7 @@ export default function PricingPlans() {
                     <span className='AA-active'>Monthly</span>
                     <span>Yearly</span>
                 </div>
-                <img src='/assets/images/pricingIcon1_2.svg' alt="" className='h-25'/>
+                <img src='/extech/assets/images/pricingIcon1_2.svg' alt="" className='h-25'/>
                 <p className='m-0'>Save 25%</p>
             </div>
             <Row className='gy-3'>
